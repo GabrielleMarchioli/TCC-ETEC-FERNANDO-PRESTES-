@@ -1,0 +1,124 @@
+<style>
+   body {
+        background-position: center;
+        background-size: cover;
+        background-color: rgb(201, 199, 199);
+        /*background-size: 100%;*/
+        
+    }  
+
+}  
+
+.divEditado
+{
+    margin-top: 300px;
+    
+}
+       .lblNomeProd, .lblDescProd, .lblPrecoProd, .lblQuantEstoque, .lblcategoria, .lblfaixaetaria, .lblCor, .lblTipo, .lblTamanho
+ {
+    display: block;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    margin-left: none;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.txtNomeProd, .txtDescProd, .txtPrecoProd, .txtQuantEstoque, .txtcategoria, .txtfaixaetaria, .txtCor, .txtTipo, .TxtTamanho 
+{
+    font-family: Arial, sans-serif;
+    width: 285px;
+    height: 25px;
+    font-size: 16px;
+    border: none;
+    background-color: #e0dcdc;
+    margin-top: 2px;
+    margin-left: center;
+    border-radius: 8px;
+}
+
+.DivEditarProduto
+{
+    background-color: #ffffff;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    border: solid 1px #000000;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+.lblEditado
+{
+    font-family: Arial, sans-serif;
+    width: 285px;
+    height: 60px;
+    font-size: 25px;
+    border: none;
+    background-color: #ffe4c4;
+    Margin-top: 1110px;
+}
+.titulo
+{
+    font-family:Judson
+}
+.btnEnviar
+{
+font-family: Arial, sans-serif;
+font-size: 13px;
+font-weight: bold;
+background-color: #dec890;
+border: solid 1px #000000;
+width: 100px;
+height: 30px;
+margin-top: 5px;
+cursor: pointer;
+border-radius: 8px;
+}
+.btnVoltar
+{
+font-family: Arial, sans-serif;
+font-size: 23px;
+font-weight: bold;
+background-color: #dec890;
+border: solid 1px #000000;
+width: 90px;
+height: 50px;
+cursor: pointer;
+margin-top: 45px;
+border-radius: 8px;
+}
+.divbtnVolta
+{
+    margin-top: -10px;
+}
+    
+  .btnVoltar:hover
+{
+    background-color: #c2a27c;
+}
+.btnVoltar:active
+{
+    background-color: #795c39;
+    color: #ffffff;
+}
+      .btnEnviar:hover
+{
+    background-color: #c2a27c;
+}
+.btnEnviar:active
+{
+    background-color: #795c39;
+    color: #ffffff;
+}
+      .btnLimpar:hover
+{
+    background-color: #c2a27c;
+}
+.btnLimpar:active
+{
+    background-color: #795c39;
+    color: #ffffff;
+}
+</style>

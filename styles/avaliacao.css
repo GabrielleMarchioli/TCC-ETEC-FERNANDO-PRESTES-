@@ -1,0 +1,89 @@
+<style>
+.img-thumbnail
+{
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+}
+.vazioClass
+{
+    display: none;
+}
+.estrela
+{
+    display: none;
+}
+.img-thumbnail:hover
+{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.avaliacao
+{
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 900px;
+    background-color: #ffffff;
+}
+.qtdEstrelasIndividual
+{
+    color: #edc602;
+    font-size: 20px;
+}
+.cabecalhoMinhaAvaliacao
+{
+    margin-top: 30px;
+    background-color: #fffffff;
+}
+.btn
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.minhaAvaliacao
+{
+    background-color: #dedcd5;
+}
+.opiniaoIndividual
+{
+    font-size: 25px;
+}
+.estrelasTodas
+{
+    color: #edc602;
+    font-size: 20px;
+}
+.opiniaoTodas
+{
+    font-size: 25px;
+}
+.divBorda
+{
+    border: 1px solid #000000;
+    margin-top: 10px;
+}
+.estrelaMedia
+{
+    color: #edc602;
+}
+.btnEnviar
+{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #dec890;
+    border: solid 1px #000000;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+    @media screen and (max-width:920px)
+    {
+        .avaliacao
+        {
+            width: auto;
+        }
+    }
+</style>

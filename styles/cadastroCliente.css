@@ -1,0 +1,191 @@
+<style>
+    body
+    {
+       background-image: url(../imgs/imgLogin.png);
+       background-position: center;
+       background-size: cover;
+       background-color: #ffe4c4;
+       /*background-size: 100%;*/
+       background-repeat: no-repeat;
+       height: 100vh;
+       background-attachment: fixed;  
+      
+    }
+       .titulo
+    {
+	    margin-top: 150px;
+        font-family: Judson;
+        text-align: center;
+        cursor: default;
+        color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    }
+        .divCadastro
+    {
+        background-color: #ffffff;
+        text-align: center;
+        width: 350px;
+        height: 520px;
+        border: solid 1px #000000;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        box-shadow: 10px 5px 5px black;
+
+    }
+        .divBtn
+        {
+            
+            Margin-left: -210px;
+            
+        }
+     .txtEmail, .txtSenha, .txtNome, .txtSobrenome, .txtEndereco, .txtData
+    {
+        font-family: Arial, sans-serif;
+        width: 285px;
+        height: 45px;
+        font-size: 16px;
+        border: none;
+        background-color: #e0dcdc;
+       border-radius: 8px;
+    }
+    .txtSenha
+    {
+        margin-left: 11px;
+        
+    }
+    .btnVis
+    {
+        margin-right: right;
+        border: none;
+        background-color: #ffffff00;
+	    cursor: pointer;
+    }
+        .lblEmail, .lblSenha, .lblNome, .lblSobrenome, .lblEndereco, .lblData
+     {
+	    display: block;
+        font-family: Arial, sans-serif;
+        margin-top: 20px;
+        margin-left: -63%;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+    .lblEndereco
+    {
+        margin-left: -193px;
+        
+    }
+    .lblSobrenome
+    {
+        margin-left: -180px;
+        
+    }
+    .lblData
+    {
+       margin-left: -113px;
+        
+    }
+    .btnCadastrar
+    {
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+          background-color: #dec890;
+    border: solid 1px #000000;
+        width: 100px;
+        height: 30px;
+        margin-top: 100px;
+        margin-right: -210px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+    .btnLimpar
+    {
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+          background-color: #dec890;
+    border: solid 1px #000000;
+        width: 100px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: -5px;
+	    cursor: pointer;
+        border-radius: 8px;
+        
+    }
+    
+    .btnVlogin
+    {
+     font-family: Arial, sans-serif;
+        font-size: 23px;
+        font-weight: bold;
+          background-color: #dec890;
+    border: solid 1px #000000;
+        width: 90px;
+        height: 50px;
+        margin-top: 60px;
+        margin-left: -38px;
+        border-radius: 10px;
+        position: absolute;
+	    cursor: pointer;
+    }
+      .btnVlogin:hover, .btnLimpar:hover, .btnCadastrar:hover
+    {
+        background-color: #c2a27c;
+    }
+    .btnVlogin:active,  .btnLimpar:active, .btnCadastrar:active
+    {
+        background-color: #795c39;
+        color: #ffffff;
+    }
+    .btnVis
+    {
+        margin-left: -28px;
+        
+    }
+
+    .btnLimpar
+    {
+        margin-top: 10px;
+        
+        
+    }
+    
+    .btnCadastrar
+    {
+        
+        Margin-top:  -890px;
+    }
+    
+    
+    /*Responsividade*/
+
+    @media screen and (min-height:900px)
+    {
+        .titulo
+        {
+            margin-top: 230px;
+        }
+    }
+        @media screen and (min-height:1200px)
+    {
+        .titulo
+        {
+            margin-top: 330px;
+        }
+    }
+    
+    @media screen and (max-height:600px)
+    {
+        .titulo
+        {
+            margin-top: 40px;
+        }
+    }
+    
+    @-ms-viewport{
+  height: device-height;
+}
+    
+</style>

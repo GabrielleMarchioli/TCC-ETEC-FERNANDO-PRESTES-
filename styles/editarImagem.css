@@ -1,0 +1,102 @@
+<style>
+ body
+    {
+       background-position: center;
+       background-size: cover;
+       background-color: #ffe4c4;
+       background-repeat: no-repeat;
+    }
+    .divErro
+    {
+        color: red;
+        font-weight: bold;
+    }
+     .divEditar
+    {
+        background-color: #ffffff;
+        text-align: center;
+        width: 350px;
+        height: 620px;
+        border: solid 1px #000000;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     .titulo
+    {
+	    margin-top: 150px;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        cursor: default;
+    }
+
+         .txtNome
+    {
+        font-family: Arial, sans-serif;
+        width: 285px;
+        height: 45px;
+        font-size: 20px;
+        border: none;
+        background-color: #e0dcdc;
+    }
+        .txtSobrenome
+    {
+        font-family: Arial, sans-serif;
+        width: 285px;
+        height: 45px;
+        font-size: 25px;
+        border: none;
+        background-color: #e0dcdc;
+    }
+        .txtEmail
+    {
+        font-family: Arial, sans-serif;
+        width: 285px;
+        height: 45px;
+        font-size: 25px;
+        border: none;
+        background-color: #e0dcdc;
+    }
+        .data
+    {
+        font-family: Arial, sans-serif;
+        width: 285px;
+        height: 45px;
+        font-size: 25px;
+        border: none;
+        background-color: #e0dcdc;
+    }
+    .btnVoltar
+    {
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: #dec890;
+    border: solid 1px #000000;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    }
+    .btnEnviar
+    {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #dec890;
+    border: solid 1px #000000;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    }
+      .btnVoltar:hover, .btnEnviar:hover
+    {
+        background-color: #c2a27c;
+    }
+    .btnVoltar:active,  .btnEnviar:active
+    {
+        background-color: #795c39;
+        color: #ffffff;
+    }
+</style>
